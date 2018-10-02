@@ -29,3 +29,10 @@ if __name__ == '__main__':
         s.push(z)
         count += 1
     print(s.display())
+    print("Length of stack :",s.size())
+    print("Popping two elements from stack")
+    s.pop()
+    s.pop()
+    print(s.display())
+    print("Length of stack :",s.size())
+    
